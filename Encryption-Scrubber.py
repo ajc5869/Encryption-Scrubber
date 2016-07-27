@@ -1,6 +1,6 @@
 #Author: Andrew Cozzetta
 #Purpose: Traverse through Google Drive to find non-encrypted, Thumbs.db, .DS_Store, and desktop.ini files
-#Last Updated: 3/13/16
+#Last Updated: 7/26/16
 
 import os
 import platform
