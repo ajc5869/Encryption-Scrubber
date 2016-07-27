@@ -41,7 +41,7 @@ def main():
         directory = 'C:\\Users\\' + my_username + '\\Google Drive'
         print("Google Drive Directory: " + directory)
     if platform.system() == "Linux":
-        directory = '/home/andrew/Drive'
+        directory = '/home/' + my_username + '/Drive'
 
     #Iterate through the directory to find non-encrypted, Thumbs.db, .DS_Store, and desktop.ini files
     for root, dirs, files in os.walk(directory):
